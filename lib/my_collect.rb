@@ -4,7 +4,8 @@ def my_collect(array)
   # binding.pry
   collection = []
   i = 0 
-  while 
+  while i < 0
+    yield(array[i])
 end
 collection
 end
