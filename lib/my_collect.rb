@@ -5,7 +5,7 @@ def my_collect(array)
   collection = []
   i = 0 
   while i < 0
-    << yield(array[i])
+     yield(array[i])
 end
 collection.capitalize
 end
